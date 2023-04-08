@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+}
+.toss-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 30%;
+  max-width: 1150px;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #a35200;
+  font-size: 25px;
+}
+.heads-tails {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #334155;
+}
+@media screen and (min-width: 768px) {
+  .heads-tails {
+    font-size: 20px;
+  }
+  .heading {
+    font-size: 32px;
+  }
+}
+.image {
+  width: 100px;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    width: 200px;
+  }
+}
+.button {
+  border-radius: 8px;
+  background-color: #e2a139;
+  color: #a35200;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 6px;
+  margin-top: 30px;
+}
+.toss-result-card {
+  display: flex;
+  flex-direction: column;
+  color: #475569;
+  font-size: 15px;
+  margin-top: 12px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .toss-result-card {
+    flex-direction: row;
+    font-size: 20px;
+  }
+}
+.total {
+  margin-right: 10px;
+}
+.heads {
+  margin-right: 10px;
+}
